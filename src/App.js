@@ -17,9 +17,9 @@ class App extends Component {
   state = initialState;
 
   performFetch = () =>
-    fetch("http://localhost:8000/pokemon?type=Electric&name=pika", {
+    fetch("http://localhost:8000/movie?genre=animation", {
       headers: {
-        Authorization: "Bearer fe6df062-b958-4951-903f-cbd098bc9242",
+        Authorization: "Bearer 5b8eb37f-16ef-445b-9189-245dd08e6ac9",
       },
     });
 
